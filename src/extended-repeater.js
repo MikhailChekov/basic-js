@@ -32,8 +32,6 @@ module.exports =  function repeater(str, options) {
     }
   }
 
-  console.log(add);
-
   const sep = options.separator || '+';
   const addSep = options.additionSeparator || '|';
 
